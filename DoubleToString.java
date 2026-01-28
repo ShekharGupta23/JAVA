@@ -1,0 +1,21 @@
+// Java Program to Convert Double to String Using '+'
+import java.io.*;
+class DoubleToString {
+    public static void main(String[] args)
+    {
+
+        double num = 12.345;
+
+        String str = num + "";
+
+        System.out.println(str);
+
+        System.out.println(
+            "Type of num : "
+            + ((Object)num).getClass().getSimpleName());
+
+        System.out.println(
+            "Type of str : "
+            + ((Object)str).getClass().getSimpleName());
+    }
+}
